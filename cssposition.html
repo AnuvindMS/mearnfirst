@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+            position: static;
+            background-color: blue;
+        }
+        #p2{
+            position: relative;
+            top: 10px;
+            left: 150px;
+            background-color: brown;
+        }
+        #p3{
+            position: absolute;
+            top: 10px;
+            background-color: red;
+            
+        }
+        #d{
+            position: relative;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+        #p4{
+            position: fixed;
+            bottom: 10px;
+            background-color: aqua;
+            height: 100px;
+            width: 150px;
+        }
+        #p5{
+            position: sticky;
+            background-color: black;
+            top: 0px;
+        }
+        img{
+            height: 1000px;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div id="p1">
+        css position1
+    </div>
+    <div id="p2">
+        css position2
+    </div>
+    <div id="d">
+        <div id="p3">
+            css position3
+        </div>
+        <div id="p4">
+            fixed
+        </div>
+    </div>
+    <div id="p5">
+        sticky
+    </div>
+    <img src="/img.jpg" alt="">
+    
+</body>
+</html>

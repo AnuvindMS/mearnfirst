@@ -1,0 +1,164 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+.body{
+    margin: opx;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 25px;
+   
+}
+.login{
+    width: 50%;
+    float: right;
+    position: absolute;
+    left:921px;
+    top:25px;
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 170px;
+}
+.login-content{
+    margin:-5px;
+}
+.login-1{
+    color: #fff;
+}
+.forgotten{
+    font-size: 15px;
+    text-decoration: none;
+    color: #9cb4db;
+}
+.submit-button{
+    background-color: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color:blue ;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 174px;
+    padding-top: 24px;
+}
+.right-section{
+    width: 50%;
+    float: left;
+}
+.main-body{
+    width: 100%;
+    background: linear-gradient(to bottom, white, #D3D8EB);
+    height: 685PX;
+}
+.img{
+    width: 550px;
+    height: 227px;
+}
+.para{
+    font-weight: bold;
+    font-size: 20px;
+}
+.right-section {
+    position: absolute;
+    right: -189px;
+    top: 120px;
+}
+.right-section p{
+    color: black;
+}
+.right-section h1 {
+    font-size: 30px;
+    color: #29487d;
+    font-weight: 700;
+}
+.right-section h2{
+    font-size: 23px;
+    color: #29487d;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.right-form{
+    position: relative;
+    padding-top: 30px;
+}
+.inpu1{
+    font-size: 17px;
+    height: 31px;
+    width: 190px;
+    padding: 4px;
+    padding-left: 10px;
+}
+.inpu2{
+    font-size: 17px;
+    height: 31px;
+    width: 400px;
+    margin-top: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    
+}
+.inpu3{
+    margin-top: 28px;
+    width: 20px;
+    font-size: 18px;   
+}
+.inpu4{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.inpu5{
+    margin-top: 28px;
+    width: 70px;
+    height: 32px;
+    font-size: 15px;  
+    padding: 3px; 
+}
+.right-form a{
+    font-size: 14px;
+    color: #29487d; 
+    text-decoration: none;  
+}
+
+.right-form p{
+    margin-top: 12px;
+    font-size: 12px;
+}
+.right-form button {
+    margin-top: 17px;
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    background-color: #00a400;
+    border: 1px solid #42b72a;
+    color: white;
+    font-weight: 700;
+}
+.right-form button:hover{
+    background-color: green;
+}
+hr{
+    margin-top: 20px;
+    height: 1px;
+    color: gray;
+    background-color: gray;
+}
+.right-section h4{
+    margin-top: 10px;
+    color: rgb(83, 77, 77);
+}
